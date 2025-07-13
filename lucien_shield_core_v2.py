@@ -239,3 +239,8 @@ threading.Thread(target=recognize_speech, daemon=True).start()
 
 while True:
     time.sleep(1)
+
+
+
+
+

@@ -27,3 +27,8 @@ if __name__ == "__main__":
             break
         answer = ask_lucien(user_input)
         print(f"\n🤖 Lucien:\n{answer}")
+
+
+
+
+

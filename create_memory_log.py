@@ -20,3 +20,8 @@ conn.commit()
 conn.close()
 
 print("? memory_log table created.")
+
+
+
+
+

@@ -1,1 +1,6 @@
-def call_mistral(prompt): return 'mistral not implemented yet'
+﻿def call_mistral(prompt): return 'mistral not implemented yet'
+
+
+
+
+

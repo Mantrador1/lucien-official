@@ -1,0 +1,12 @@
+﻿[
+  {
+    "name": "cf_clearance",
+    "value": "valid_cookie_here",
+    "domain": ".galxe.com",
+    "path": "/",
+    "expires": 1720000000,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

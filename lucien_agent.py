@@ -1,25 +1,26 @@
-﻿# -*- coding: utf-8 -*-
+﻿import os
+import time
 import requests
 
-PROXY_URL = "https://lucien-proxy-production.up.railway.app/ask"
+def main():
+    while True:
+        prompt = "List all stealth automation steps needed to farm Galxe and Zealy quests efficiently using Playwright in Python. Include evasion logic, rotation, and multi-account handling."
 
-def ask_lucien(prompt):
-    payload = {
-        "prompt": prompt,
-        "model": "dolphin-mixtral-8x7b"
-    }
+        headers = {
+            "Content-Type": "application/json"
+        }
 
-    response = requests.post(PROXY_URL, headers={"Authorization": f"Bearer {os.environ.get(\"OPENROUTER_API_KEY\", \"\")}"}, json=payload)
-    if response.status_code == 200:
-        return response.json()["response"]
-    else:
-        print("ÃƒÂ¢Ã‚ÂÃ…â€™ Error:", response.text)
-        return None
+        try:
+            response = requests.post("http://127.0.0.1:8080/ask", json={"prompt": prompt}, headers=headers)
+            print("\n?? Claude:\n", response.text)
+        except Exception as e:
+            print("? Error:", e)
+
+        time.sleep(30)
 
 if __name__ == "__main__":
-    while True:
-        prompt = input("ÃƒÂ°Ã…Â¸Ã¢â‚¬ËœÃ‚Â¤ ÃƒÅ½Ã¢â‚¬Â¢ÃƒÂÃ†â€™ÃƒÂÃ‚Â: ")
-        if prompt.lower() in ["exit", "quit"]:
-            break
-        reply = ask_lucien(prompt)
-        print("ÃƒÂ°Ã…Â¸Ã‚Â¤Ã¢â‚¬â€œ Lucien:", reply)
+    main()
+
+
+
+

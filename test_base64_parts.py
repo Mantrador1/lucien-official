@@ -24,3 +24,8 @@ for part in parts:
         data = f.read()
         valid = is_valid_base64(data)
         print(f"{part}: {'ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ OK' if valid else 'ÃƒÂ¢Ã‚ÂÃ…â€™ INVALID'}")
+
+
+
+
+

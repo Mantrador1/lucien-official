@@ -1,0 +1,7 @@
+
+[2025-07-13 22:18:17] ?? Starting Lucien God Mode...
+[2025-07-13 22:18:17] ?? Killing PID 7596 — python.exe
+[2025-07-13 22:18:17] ?? Killing PID 9428 — python.exe
+[2025-07-13 22:18:18] ?? Injected diagnostics route in main.py
+[2025-07-13 22:18:18] ?? main.py restarted
+[2025-07-13 22:18:20] ?? telegram_listener restarted

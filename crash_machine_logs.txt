@@ -98,3 +98,4 @@
 [2m2025-07-05T11:10:55Z[0m app[7840076ce9e978] [32mfra[0m [[34minfo[0m][32m INFO[0m Preparing to run: `python main.py` as root
 [2m2025-07-05T11:10:55Z[0m app[7840076ce9e978] [32mfra[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
 [2m2025-07-05T11:10:55Z[0m runner[7840076ce9e978] [32mfra[0m [[34minfo[0m]Machine started in 1.425s
+

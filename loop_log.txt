@@ -1,0 +1,17 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:27
++ cd C:\stealth-playwright; python loop_galxe_stealth.py 2>&1 | Tee-Obj ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\stealth-playwright\loop_galxe_stealth.py", line 1, in <module>
+    \ufefffrom galxe_auto_farm_loop import farm_all_quests; import asyncio; asyncio.run(farm_all_quests())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\stealth-playwright\galxe_auto_farm_loop.py", line 2, in <module>
+    from playwright_stealth.stealth import Stealth
+  File "C:\stealth-playwright\playwright_stealth\stealth.py", line 5
+    page.add_init_script(\"""Object.defineProperty(navigator, 'webdriver', {get: () => undefined})\""")
+                          ^
+SyntaxError: unexpected character after line continuation character
+

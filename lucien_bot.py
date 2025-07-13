@@ -39,3 +39,8 @@ def handle_all(message):
 
 print("ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Lucien Bot with Executor running...")
 bot.polling()
+
+
+
+
+

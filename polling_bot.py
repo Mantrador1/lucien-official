@@ -17,3 +17,8 @@ def echo_all(message):
 if __name__ == "__main__":
     print("Lucien Polling Bot ?e????se...")
     bot.polling(none_stop=True)
+
+
+
+
+

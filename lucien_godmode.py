@@ -46,3 +46,8 @@ def ask():
         return jsonify({"response": f"⚠️ Σφάλμα AI: {e}"})
 
 app.run(host="0.0.0.0", port=8080)
+
+
+
+
+

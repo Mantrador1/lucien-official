@@ -9,3 +9,4 @@ while ($true) {
 
     Write-Host "`n🤖 AI Response:`n$($response.response)`n"
 }
+

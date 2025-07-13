@@ -30,3 +30,8 @@ subprocess.run(["flyctl", "deploy", "--force"], check=True)
 
 # === STEP 6: Confirm ===
 print(f"\nðŸš€ Deployment complete! Access Lucien at:\nâž¡ï¸ https://{APP_NAME}.fly.dev/ask")
+
+
+
+
+

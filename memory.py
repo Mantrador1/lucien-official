@@ -20,3 +20,8 @@ def save_memory(key, value):
 def load_memory(key):
     memory = _load_memory()
     return memory.get(key, None)
+
+
+
+
+

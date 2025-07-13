@@ -14,3 +14,8 @@ with open("LucienX_app.apk","wb") as out:
             data = open(p).read()
             out.write(base64.b64decode(fix_pad(data)))
 print("ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ LucienX_app.apk created successfully.")
+
+
+
+
+

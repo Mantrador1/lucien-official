@@ -1,4 +1,4 @@
-import json
+﻿import json
 from datetime import datetime
 
 SCORE_FILE = 'score.json'
@@ -18,3 +18,8 @@ def load_scores():
 def log_error(model, prompt, error):
     with open(LOG_FILE, 'a', encoding='utf-8') as f:
         f.write(f"[{datetime.now().isoformat()}] ? Model: {model} | Error: {error} | Prompt: {prompt}\n")
+
+
+
+
+

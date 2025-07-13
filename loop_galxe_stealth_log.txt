@@ -1,0 +1,11 @@
+﻿python :   File "C:\stealth-playwright\loop_galxe_stealth.py", line 1
+At line:1 char:1
++ python loop_galxe_stealth.py 2>&1 | Tee-Object loop_galxe_stealth_log ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "C:\stea...lth.py", line 1:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    \ufefffrom galxe_auto_farm_loop import farm_all_quests; import asyncio; asyncio.run(farm_all_quests())
+    ^
+SyntaxError: invalid non-printable character U+FEFF
+

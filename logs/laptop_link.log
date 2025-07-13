@@ -1,0 +1,6 @@
+2025-07-14 00:50:52 - ERROR: {"error":"'choices'"}
+
+2025-07-14 00:54:04 - ERROR: {"error":"HTTP 400: {\"error\":{\"message\":\"Input must have at least 1 token.\",\"code\":400,\"metadata\":{\"provider_name\":null}}}"}
+
+2025-07-14 00:57:28 - ERROR: {"error":"HTTP 400: {\"error\":{\"message\":\"Input must have at least 1 token.\",\"code\":400,\"metadata\":{\"provider_name\":null}}}"}
+

@@ -1,0 +1,8 @@
+=utf-8 : The term '=utf-8' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+ the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:33
++ cd C:\lucien_proxy; chcp 65001; ='utf-8'; python telegram_listener.py
++                                 ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=utf-8:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

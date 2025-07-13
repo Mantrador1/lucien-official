@@ -1,5 +1,8 @@
-﻿# -*- coding: utf-8 -*-
-class Config:
-    SECRET_KEY = "change-this-secret"
-    SQLALCHEMY_DATABASE_URI = "sqlite:///app.db"
-    DEBUG = False
+﻿OPENROUTER_API_KEY = 'το_δικό_σου_OpenRouter_API_Key'
+CLAUDE_MODEL = 'claude-3-opus'
+FLY_APP_URL = 'https://το-όνομα-εφαρμογής-σου.fly.dev'
+
+
+
+
+

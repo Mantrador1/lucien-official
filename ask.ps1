@@ -11,3 +11,4 @@ $response = Invoke-RestMethod `
     -ContentType "application/json"
 
 Write-Host "`n🤖 AI Response:`n$response.response"
+

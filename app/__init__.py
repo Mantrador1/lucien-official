@@ -9,3 +9,8 @@ def create_app():
     init_extensions(app)
     app.register_blueprint(main_bp)
     return app
+
+
+
+
+

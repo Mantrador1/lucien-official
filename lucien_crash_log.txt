@@ -98,3 +98,4 @@
 [2m2025-07-05T11:14:44Z[0m app[7840076ce9e978] [32mfra[0m [[34minfo[0m][    1.895033] reboot: Restarting system
 [2m2025-07-05T11:14:45Z[0m runner[7840076ce9e978] [32mfra[0m [[34minfo[0m]machine has reached its max restart count of 10
 [2m2025-07-05T11:17:42Z[0m runner[7840076ce9e978] [32mfra[0m [[34minfo[0m]Pulling container image registry.fly.io/lucien-outside@sha256:67c27c228369c76c6983fc1064ea598ed5babe78d6e2744a35ee8a8690dde41c
+

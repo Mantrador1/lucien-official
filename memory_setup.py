@@ -35,3 +35,8 @@ test_entry = MemoryLog(
 session.add(test_entry)
 session.commit()
 print("âœ… Table created and test memory inserted.")
+
+
+
+
+

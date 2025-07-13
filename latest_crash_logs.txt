@@ -98,3 +98,4 @@
 [2m2025-07-05T11:13:49Z[0m app[7840076ce9e978] [32mfra[0m [[34minfo[0m][32m INFO[0m Starting clean up.
 [2m2025-07-05T11:13:49Z[0m app[7840076ce9e978] [32mfra[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
 [2m2025-07-05T11:13:49Z[0m app[7840076ce9e978] [32mfra[0m [[34minfo[0m][    1.901931] reboot: Restarting system
+

@@ -1,0 +1,2 @@
+﻿{"query":"mutation variableUpsert($input: VariableUpsertInput!) {\n  variableUpsert(input: $input) {\n    id\n    name\n    value\n    serviceId\n    environmentId\n    projectId\n  }\n}","variables":{"input":{"environmentId":"d94261ee-17f0-4c79-babe-bad76c7195e0","name":"MY_VARIABLE","value":"my_secret_value","projectId":"cb0627b9-3180-4a76-bac5-ef7dad119db9"}}}
+

@@ -1,5 +1,6 @@
-{
-  "openrouter_api_key": "sk-or-ΒΑΛΕ_ΕΔΩ_ΤΟ_KEY_ΣΟΥ",
+﻿{
+  "openrouter_api_key": "sk-or-Î’Î‘Î›Î•_Î•Î”Î©_Î¤ÎŸ_KEY_Î£ÎŸÎ¥",
   "model": "meta-llama/llama-3-70b-instruct",
   "default_prompt_prefix": "Answer in perfect modern Greek, like a wise friend:"
 }
+

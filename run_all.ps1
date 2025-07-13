@@ -21,3 +21,4 @@ $response = Invoke-RestMethod -Uri "http://localhost:5050/ask"
 
 Write-Host "Response from server:"
 Write-Host $response.response
+

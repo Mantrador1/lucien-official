@@ -8,3 +8,8 @@ URL = f"https://api.telegram.org/bot{TOKEN}/setWebhook"
 
 response = requests.post(URL, data={"url": NGROK_URL})
 print(response.text)
+
+
+
+
+

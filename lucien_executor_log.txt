@@ -1,10 +1,11 @@
-[2025-06-16 16:36:11] === Executor Started ===
+﻿[2025-06-16 16:36:11] === Executor Started ===
 [2025-06-16 16:36:11] Lucien Executor v7.5 launched. Inactivity watchdog activated.
-[2025-06-16 16:37:24] ✅ Executed: print("✅ Lucien Executor fully online.")
-[2025-06-16 16:40:09] ❌ Error: invalid syntax (<string>, line 1)
-[2025-06-16 16:43:30] ❌ Error: invalid syntax (<string>, line 1)
-[2025-06-16 16:46:09] ❌ Error: invalid syntax (<string>, line 1)
-[2025-06-16 16:51:11] ⚠️ Inactivity detected.
-[2025-06-16 16:56:11] ⚠️ Inactivity detected.
-[2025-06-16 17:01:11] ⚠️ Inactivity detected.
-[2025-06-16 17:02:52] ❌ Error: invalid syntax (<string>, line 1)
+[2025-06-16 16:37:24] âœ… Executed: print("âœ… Lucien Executor fully online.")
+[2025-06-16 16:40:09] âŒ Error: invalid syntax (<string>, line 1)
+[2025-06-16 16:43:30] âŒ Error: invalid syntax (<string>, line 1)
+[2025-06-16 16:46:09] âŒ Error: invalid syntax (<string>, line 1)
+[2025-06-16 16:51:11] âš ï¸ Inactivity detected.
+[2025-06-16 16:56:11] âš ï¸ Inactivity detected.
+[2025-06-16 17:01:11] âš ï¸ Inactivity detected.
+[2025-06-16 17:02:52] âŒ Error: invalid syntax (<string>, line 1)
+

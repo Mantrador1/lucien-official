@@ -14,3 +14,8 @@ if TELEGRAM_TOKEN:
         print(f'Error during request: {e}')
 else:
     print('Error: TELEGRAM_TOKEN environment variable is not set.')
+
+
+
+
+

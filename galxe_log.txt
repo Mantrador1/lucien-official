@@ -1,0 +1,25 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250710190928
+Username: SPIROS\SPECTRE360
+RunAs User: SPIROS\SPECTRE360
+Configuration Name: 
+Machine: SPIROS (Microsoft Windows NT 10.0.26100.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath C:\lucien_proxy
+Process ID: 49504
+PSVersion: 5.1.26100.4652
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4652
+BuildVersion: 10.0.26100.4652
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\lucien_proxy\galxe_log.txt
+PS C:\lucien_proxy> Get-Process | Where-Object { $_.Path -like "*galxe_runner*" -or $_.Path -like "*python*" }
+PS C:\lucien_proxy> Start-Process powershell.exe -ArgumentList "-NoExit -Command `"& 'C:\lucien_proxy\venv\Scripts\python.exe' 'C:\lucien_proxy\playwright_stealth\galxe_runner.py' --cookie 'C:\lucien_proxy\playwright_stealth\cookies_ready\wallet1.cookies.json' --wallet 'wallet1'`""
+PS C:\lucien_proxy> $wallet = "wallet1"
+PS C:\lucien_proxy> $cookie = "C:\lucien_proxy\playwright_stealth\cookies_ready\$wallet.cookies.json"
+PS C:\lucien_proxy> Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass -NoProfile -Command `"C:\lucien_proxy\venv\Scripts\python.exe`" `"C:\lucien_proxy\playwright_stealth\galxe_runner.py`" --cookie `"$cookie`" --wallet `"$wallet`"" -WindowStyle Hidden
+PS C:\lucien_proxy> Start-Process powershell.exe -ArgumentList "-NoExit -Command `"& 'C:\lucien_proxy\venv\Scripts\python.exe' 'C:\lucien_proxy\playwright_stealth\galxe_runner.py' --cookie 'C:\lucien_proxy\playwright_stealth\cookies_ready\wallet1.cookies.json' --wallet 'wallet1'`""

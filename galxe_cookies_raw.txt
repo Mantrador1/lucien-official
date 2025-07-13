@@ -1,0 +1,30 @@
+﻿_ga=GA1.1.2055542898.1752059168; Domain=.galxe.com; Path=/
+_ga_F9J18S6WJV=GS2.1.s1752074683$o4$g1$t1752075439$j60$l0$h0; Domain=.galxe.com; Path=/
+account=EVM:0x2e07922bAF2c4a9f27493b2645560d5932441Ff7; Domain=app.galxe.com; Path=/
+auth-token={"authorization":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJEZXZpY2VJRCI6ImdhLXVzZXItMjA1NTU0Mjg5OC4xNzUyMDU5MTY4IiwiR2FseGVJRCI6ImFTZU1uVGJBSzRzbW5QdUd5UmtkcloiLCJleHAiOjE3NTI2Njg0OTksImp0aSI6IjI2YTY3MTJjZDc5MGI4ZmFjNjA0NGJjNTBlNjRlZGMyYjZhZjg4YzZjMGI3Yjc0NDM0OWMxNGY0MDVmM2I2YTMiLCJBZGRyZXNzIjoiMHgyZTA3OTIyYkFGMmM0YTlmMjc0OTNiMjY0NTU2MGQ1OTMyNDQxRmY3IiwiQWRkcmVzc1R5cGUiOjEsIkFjY291bnRVc2VybmFtZSI6IiJ9.z6CAh3BhJJ2NYl4S8K_FCSbMHalJIfg9jHMlYLeCJT8"}; Domain=app.galxe.com; Path=/
+chainId=1; Domain=app.galxe.com; Path=/
+connectMethod=MetaMask; Domain=app.galxe.com; Path=/
+galxe-id=aSeMnTbAK4smnPuGyRkdrZ; Domain=app.galxe.com; Path=/
+ph_phc_9sSugZ5bXYldHSU4TaDf0jB2RBFxxCLFKQ91N6CqWhL_posthog=%7B%22distinct_id%22%3A%22aSeMnTbAK4smnPuGyRkdrZ%22%2C%22%24sesid%22%3A%5B1752074712696%2C%220197efca-7678-7cec-b402-6c515f20f466%22%2C1752074712696%5D%7D; Domain=.galxe.com; Path=/
+wagmi.recentConnectorId="metaMaskSDK"; Domain=app.galxe.com; Path=/
+wagmi.store={"state":{"connections":{"__type":"Map","value":[]},"chainId":1,"current":null},"version":2}; Domain=app.galxe.com; Path=/
+__Secure-1PAPISID=144nCoKLImCYwOiV/AJ0sDwZBRC-F-VS0n; Domain=.google.com; Path=/
+__Secure-1PSID=g.a000ywhU5MCvE9vQzf4eiO2lEGna4bPvDqz0r9Edek79u4stsPauOvChdN5ypeJc_KtaC1eCIAACgYKAVcSARASFQHGX2MiFE1PNXAIjHZbrqa9QEiXcBoVAUF8yKoRoL0MqFu8ngRBP_egXlm70076; Domain=.google.com; Path=/
+__Secure-1PSIDCC=AKEyXzXeigZgyfuhB2DcYK0MujZbpzPwrKPh9bQjb5N_vOaLcvo6tSLFrBe3Kz7MICKOqRTuFz4; Domain=.google.com; Path=/
+__Secure-1PSIDTS=sidts-CjIB5H03P07b-TpM3SQ6zUsEUAstJGi_MKpLC4lGTXseLdJTdwnN2qHoqI5kB4CaHgjToxAA; Domain=.google.com; Path=/
+__Secure-3PAPISID=144nCoKLImCYwOiV/AJ0sDwZBRC-F-VS0n; Domain=.google.com; Path=/
+__Secure-3PSID=g.a000ywhU5MCvE9vQzf4eiO2lEGna4bPvDqz0r9Edek79u4stsPau166JX_Gj97kx3STzBNIl2QACgYKAXUSARASFQHGX2Mi94iv5WMHL0gix3234C7R2RoVAUF8yKrzEpPmMndeTBCEqcxzw19I0076; Domain=.google.com; Path=/
+__Secure-3PSIDCC=AKEyXzWGNZD6R5uZN0Cz4kXWGGlKOTkGEcZH7XbCY7ZPbZfQu0DqaPApU8a11pt241ecfBSLFQ; Domain=.google.com; Path=/
+__Secure-3PSIDTS=sidts-CjIB5H03P07b-TpM3SQ6zUsEUAstJGi_MKpLC4lGTXseLdJTdwnN2qHoqI5kB4CaHgjToxAA; Domain=.google.com; Path=/
+AEC=AVh_V2gYEJEob7y8RHhHC5YpzXKzoIeab7sXJTlsSgDjPLbPPlX1QIJfAA; Domain=.google.com; Path=/
+APISID=uZ49UwgcONB027Kz/AE1qgFzHddemdM3ve; Domain=.google.com; Path=/
+HSID=AOU-0UF1wBIxu1UII; Domain=.google.com; Path=/
+NID=525=P75dTn4CUuNwV4cCcEgJMcHPQ9sZPJ1p-GKJYqSXiAGqOsYkfbE3bzpFLRo5pvEE98-VEHjyABB_di1jN5o5Ay7cDkZH4fKuWAggJtxVnx8S8h6Bsh7IqnHAT7xRX5hHXOkMSFbuocCz6cJOwaBpKtoWaQvIna3gzBnAWIvhN4K0yPGMxMj3R7UR2wdudVdFc2Z02f9LxwHCK7CkW0OHUNMVF3aW1WKdIkD7RUANK1j3lqFQKT3Nt6dqX2qIiRv0RCn1OWI07bhJKAcyMzw7u8_tUi46kBnS_ocNVdxAl7CS4nunsrcbB43kGDkYpldF_dWTKNAGreRFUru96IYxwFl_rmTjq3rA3HIsGlKQgL6PlfVbPy4tI37q5hI8QqzGNZUa1G_ISWRjr9ovYamO_4ZvB4zEiBvAXZ_8_2OL4Av4jTKYykRTFkHhpxJ1QxJ8BObh9ETlcBvsvdEsAwH5VNH-I4XybJGbVPVDmHtrkBzFWAel1mwpDjBHEQ1h6FD783TaHOtzbKygQ9zUE-F_6Q2IZRP32v3j2ccm9LS75Tcniszqg67v4vLxqmw_mBCV2WG1uhpMJPRuGAcOUTCgqtfHi4nZj8IDs3p3VyoyWkL8QLjcghOvMU10LqMJykmDQwX4TB46Dllsf8zSK2W5X4gPJBTn3Ys0Gvi8W_GzqfRhCDiVGQ4fzoJK5ACfPGxgnTtahFgD8bM-x9H2lzoBX0w1NYXebw0UpqfF6nN0jn7EgQgv6s6KQ6__H6VxhOvzG1WVkj_1fZau-8P6dRt3U4pb4RDYC9nqV7G5S0FKaw7WP48C3j4q-_DM5y5m4BQG4l4Pbgyg8NSjxynHj3c29_1WUAK0QRP8aj4myyCKN5mrkQI; Domain=.google.com; Path=/
+SAPISID=144nCoKLImCYwOiV/AJ0sDwZBRC-F-VS0n; Domain=.google.com; Path=/
+SEARCH_SAMESITE=CgQIjp4B; Domain=.google.com; Path=/
+SID=g.a000ywhU5MCvE9vQzf4eiO2lEGna4bPvDqz0r9Edek79u4stsPau3N66am6uNBkVtG4CgUwFNwACgYKAc4SARASFQHGX2Mi-eDUF8fqoTfq9tKTfxfvnhoVAUF8yKpZga5-qmXMesoo0DwpHloh0076; Domain=.google.com; Path=/
+SIDCC=AKEyXzWxjjmBQp01cJryffIcKjyJvZAQv8tTXDH6v6Kgv_RLcGAdv1Kc6lcImtB9sAi31lMtgg; Domain=.google.com; Path=/
+_ga=GA1.1.675542766.1752059183; Domain=.alva.xyz; Path=/;
+_ga_K945VZK0RG=GS2.1.s1752074722$o4$g0$t1752075436$j60$l0$h0; Domain=.alva.xyz; Path=/;
+
+

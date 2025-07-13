@@ -1,0 +1,58 @@
+﻿import telebot
+import subprocess
+
+BOT_TOKEN = '7121107982:AAHEs4EGv57F2J3kI8AxFeTKHFY5hgq8yX8'
+CHAT_ID = 1837395252
+
+bot = telebot.TeleBot(BOT_TOKEN)
+
+@bot.message_handler(commands=['connect-to-cloud'])
+def connect_to_cloud(message):
+    print("👉 connect-to-cloud handler ενεργοποιήθηκε")
+    try:
+        startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+        startupinfo.wShowWindow = subprocess.SW_HIDE
+        proc = subprocess.Popen(["powershell","-Command","Write-Host '✅ Lucien connected to cloud.' -ForegroundColor Cyan"], startupinfo=startupinfo, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        stdout, stderr = proc.communicate()
+        if proc.returncode == 0:
+            bot.send_message(message.chat.id, "✅ Lucien connected to cloud.")
+        else:
+            bot.send_message(message.chat.id, f"❌ Connection failed: {stderr.decode()}")
+    except Exception as e:
+        bot.send_message(message.chat.id, f"❌ Error: {str(e)}")
+
+@bot.message_handler(func=lambda m: True)
+def catch_all(message):
+    print(f"📩 Λήφθηκε: {message.text}")
+
+print("✅ Bot polling ξεκίνησε")
+bot.polling()
+
+
+
+@bot.message_handler(commands=['ask'])
+def ask_ai(message):
+    import requests, os
+    print(f"👉 /ask command received: {message.text}")
+    prompt = message.text.split(' ',1)[-1] if ' ' in message.text else ''
+    if not prompt:
+        bot.send_message(message.chat.id, '⚠️ Δώσε ερώτηση μετά το /ask')
+        return
+    try:
+        headers = {
+            'Authorization': f"Bearer {os.getenv('OPENROUTER_API_KEY')}",
+            'HTTP-Referer': 'https://chat.openai.com',
+            'X-Title': 'LucienProxy'
+        }
+        payload = {
+            'model': 'anthropic/claude-3-opus',
+            'messages': [{'role': 'user', 'content': prompt}],
+            'max_tokens': 300
+        }
+        r = requests.post('https://openrouter.ai/api/v1/chat/completions', json=payload, headers=headers)
+        ans = r.json()['choices'][0]['message']['content']
+        bot.send_message(message.chat.id, '🤖 ' + ans[:4000])
+    except Exception as e:
+        print(f"❌ AI Error: {str(e)}")
+        bot.send_message(message.chat.id, f"❌ AI Error: {str(e)}")

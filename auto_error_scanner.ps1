@@ -1,4 +1,4 @@
-while (True) {
+﻿while (True) {
     try {
         \ = Get-ChildItem -Recurse -Include *.py,*.log -Path .\lucien_proxy | Get-Content -ErrorAction SilentlyContinue | Select-String -Pattern 'Exception|Traceback|Error|FAIL|invalid|not defined'
         if (\) {
@@ -15,3 +15,4 @@ while (True) {
     }
     Start-Sleep -Seconds 300  # ???e 5 ?ept?
 }
+

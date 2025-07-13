@@ -1,4 +1,4 @@
-import requests
+﻿import requests
 import os
 
 def call_gpt4(prompt):
@@ -17,3 +17,8 @@ def call_gpt4(prompt):
         return response.json()['choices'][0]['message']['content']
     except Exception as e:
         return f'? GPT-4 error: {str(e)}'
+
+
+
+
+

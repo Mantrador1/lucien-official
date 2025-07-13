@@ -1,4 +1,4 @@
-while ($true) {
+﻿while ($true) {
     try {
         git add .
         $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
@@ -11,3 +11,4 @@ while ($true) {
     }
     Start-Sleep -Seconds 600  # ???e 10 ?ept?
 }
+

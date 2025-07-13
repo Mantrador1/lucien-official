@@ -1,4 +1,4 @@
-import json
+ï»¿import json
 import os
 from adapters.gpt4 import call_gpt4
 from adapters.claude import call_claude
@@ -33,7 +33,7 @@ def route_request(prompt):
             else:
                 continue
 
-            if 'I can’t' in response or 'I’m afraid' in response or 'I won’t' in response:
+            if 'I canï¿½t' in response or 'Iï¿½m afraid' in response or 'I wonï¿½t' in response:
                 log_error(model, prompt, 'Refused task')
                 scores[model] = max(scores.get(model, 1.0) - 0.5, 0.1)
                 save_scores(scores)
@@ -51,3 +51,8 @@ def route_request(prompt):
         return call_shadow_mistral(prompt)
     except Exception as e:
         return f'? Shadow fallback failed: {str(e)}'
+
+
+
+
+
